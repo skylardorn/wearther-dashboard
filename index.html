@@ -11,30 +11,36 @@
 
 <Body>
     <header class="row">
-        <div class="col">Weather Dashboard</div>
+        <div class="col">
+            <h1>Weather Dashboard</h1>
+        </div>
     </header>
 
-    <div class="w3-sidebar w3-bar-block" style="width:25%">Search For a City:
 
-        <form class="searchbar" action="" style="margin: auto; max-width: 300px">
+    <div class="w3-sidebar w3-bar-block" style="width:25%">Search For a City</div>
+
+        <form class="searchbar" action="" style="">
             <input type="text" placeholder="City name.." name="search">
             <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
+            <ul>
+                <li> <a href="#" class="w3-bar-item w3-button">New York</a> </li>
+                <li> <a href="#" class="w3-bar-item w3-button">Austin</a> </li>
+                <li> <a href="#" class="w3-bar-item w3-button">Chicago</a> </li>
+                <li> <a href="#" class="w3-bar-item w3-button">Seattle</a> </li>
+                <li> <a href="#" class="w3-bar-item w3-button">Newport</a> </li>
+                <li> <a href="#" class="w3-bar-item w3-button">Atlanta</a> </li>
+            </ul>
+        </form>      
+    
+        <aside>
+        <div class="row">
+        <h2>city</h2>
+        </div>
 
-        <ul>
-        <li> <a href="#" class="w3-bar-item w3-button">New York</a> </li>
-        <li> <a href="#" class="w3-bar-item w3-button">Austin</a> </li>
-        <li> <a href="#" class="w3-bar-item w3-button">Chicago</a> </li>
-        <li> <a href="#" class="w3-bar-item w3-button">Seattle</a> </li>
-        <li> <a href="#" class="w3-bar-item w3-button">Newport</a> </li>
-        <li> <a href="#" class="w3-bar-item w3-button">Atlanta</a> </li>
-        </ul>
-    </div>
+        <div class="row">
+        <h2>5-Day Forecast:</h2>       
+        </div>
 
-    <aside>
-        <section class="row" id="h2">city </section>
-
-        <section class="row" id="h2-btm">5-Day Forecast:</section>
     </aside>
 
 </body>
